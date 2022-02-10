@@ -21,7 +21,7 @@ signUp.addEventListener("click", () => {
 });
 
 btnSignIn.addEventListener("click", function dieuhuong(){
-    location.assign("main.html");
+    location.assign("index.html");
 });
 
 btnSignUp.addEventListener("click", function(){

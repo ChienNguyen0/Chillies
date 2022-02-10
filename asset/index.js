@@ -119,7 +119,7 @@ overlay.addEventListener('click', function(event) {
 function payBill() {
   modalOpen.classList.remove('open');
   alert('Buy tickets successful . Thank you for your choice !');
-  location.assign('main.html');
+  location.assign('index.html');
 
 }
 btnPay.addEventListener('click', payBill);
