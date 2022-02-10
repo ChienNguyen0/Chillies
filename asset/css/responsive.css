@@ -1,0 +1,155 @@
+/* PC */
+@media (min-width: 64em){
+    #nav > li:hover > a{
+      /* color: #000; */
+      /* background-color: #ccc; */
+        background: rgb(0,8,7);
+        background: linear-gradient(129deg, rgba(0,8,7,1) 44%, rgba(4,76,75,1) 100%);
+    }
+
+    .img-tour{
+        height: 200px; 
+    }
+
+    .user-icon:hover {
+        background-color: #ccc;
+        cursor: pointer;
+        color: #000;
+      }
+    
+}
+
+/* Tablet */
+@media (min-width: 46.1875em) and (max-width: 64em){
+    .place-img{
+        height: 225px;
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width : 63.9375em){
+    .btn{
+        padding: 15px 16px;
+    }
+    
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .content-info{
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    #footer .social-list{
+        font-size: 30px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 46.1875em){
+    .btn-width{
+        width: 50% !important;
+        border-radius: 50px;
+    }
+
+    .btn-send{
+        width: 33.33% !important;
+        border-radius: 50px;
+        margin-left: 33.33%;
+        float: left !important;
+    }
+    .add-btn{
+        margin-left: 25%;
+    }
+
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .mt-8-mobile {
+        margin-top: 8px;
+    }
+    #slider .img-size {
+        height: auto;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .user-icon{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+
+    #nav .subnav {
+        position: inherit;
+        background-color: #333; 
+    }
+
+    #nav .subnav a{
+        padding: 0   39px;
+        color: #fff;
+    }   
+
+    .menu-icon{
+        display: block;
+    }   
+
+    #slider .text-description{
+        font-size:12px;
+        margin-top:8px;
+    }
+
+    #slider .text-content{
+        bottom: 30px;
+    }
+
+    /* #content .member-img1{
+        width: 100%;
+        margin-top: 30px;
+    } */
+
+    #content .member-img{
+        width: 85%;
+        padding: 15px;
+        border-radius:20%;
+    }
+
+    #content .content-section{
+        max-width: 90%;
+    }
+
+    .place-img{
+        height: 350px;
+    }
+
+    .img-tour{
+        height: 250px;
+    }
+
+    .col-third{
+        width: 100%;
+        
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+
+    #footer .social-list a{
+        font-size: 30px;
+    }
+}
+
+
